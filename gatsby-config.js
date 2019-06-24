@@ -1,11 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: `DSC Global LLC`,
-    description: `Keep coding and add more contents.`,
+    description: `A Company focusing on product development and plastic injection mold.`,
     author: `@QunzhuWang`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -24,7 +25,7 @@ module.exports = {
         background_color: `white`,
         theme_color: `white`,
         display: `minimal-ui`,
-        icon: `src/images/icon.svg`, // This path is relative to the root of the site.
+        icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
